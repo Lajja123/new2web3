@@ -73,7 +73,6 @@ border-radius: 20px;
     margin-left: 20%;
 
 }
-<<<<<<< HEAD
 :hover.step-btn{
     color: white;
     background-color: #53A3C7;
@@ -91,9 +90,4 @@ text-decoration: underline;
 .metamask-dummy-ss{
     width: 50%;
     margin-left: 25%;
-=======
-.nftimg{
-    width: 100px;
-    height: 100px;
->>>>>>> 37d1ec67bcdb0cc60dc90d6a9cdeb0cedb4117ac
 }

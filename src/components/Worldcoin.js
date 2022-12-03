@@ -27,23 +27,6 @@ function Worldcoin() {
       <img src={worldcoin1} className="metamask-img" />
       <img src={worldcoin2} className="metamask-img" />
 
-<<<<<<< HEAD
-</p>
-
-<p className="metamask-content" >You can easily and anonymously verify they are a unique human through the <a href="https://worldcoin.org/download">Worldcoin app.</a>
-
-
-</p>
-<img src={worldcoin1} className="metamask-img"/>
-<img src={worldcoin2} className="metamask-img"/>
-
-<p className="metamask-content" >And that’s it! Your human verification is now complete!
-
-</p>
-<div className="connect-wallet">
-    <button className='connect-btn'>Worldcoin Verification</button>
-</div>
-=======
       <p className="metamask-content">
         And that’s it! Your human verification is now complete!
       </p>
@@ -60,7 +43,6 @@ function Worldcoin() {
           debug={true} // to aid with debugging, remove in production
         />
       </div>
->>>>>>> 37d1ec67bcdb0cc60dc90d6a9cdeb0cedb4117ac
     </div>
   );
 }
