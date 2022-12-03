@@ -22,6 +22,10 @@ import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
+import NftPort from './components/NftPort';
+import Worldcoin from './components/Worldcoin';
+import PushProtocol from './components/PushProtocol';
+import FatchNFT from './components/FatchNFT';
 
 const { chains, provider, webSocketProvider } = configureChains(defaultChains, [
   alchemyProvider({ apiKey: 'yourAlchemyApiKey' }),
@@ -67,7 +71,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<LandingPage />}></Route>
-            {/* <Route path="/metamask" element={<Metamask />}></Route> */}
+            <Route path="/metamask" element={<FatchNFT />}></Route>
           </Routes>
         </Router>
       </WagmiConfig>
