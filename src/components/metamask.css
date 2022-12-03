@@ -1,0 +1,52 @@
+.metamask-main-div{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 50px;
+    margin-top: 10px;
+}
+.metamask-title{
+    margin: 0 auto;
+text-align: center;
+font-size: 40px;
+
+font-family:"Alata-Regular";
+}
+.metamask-small-title{
+    /* text-align: center; */
+font-size: 20px;
+font-family:"Alata-Regular";
+}
+.navbar-div{
+    margin-top: 30px;
+    margin: 20px;
+}
+.metamask-content{
+    font-family:"Alata-Regular"; 
+    /* margin-top: 10px; */
+    width: 100%;
+    margin: 20px;
+    margin: 10px;
+    font-size: 15px;
+}
+.metamask-img{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.connect-wallet{
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-left: 40%;
+   
+}
+.connect-btn{
+margin: 0 auto;
+padding: 10px 40px ;
+
+}
+.button-group{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
