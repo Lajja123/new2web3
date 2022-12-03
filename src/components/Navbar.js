@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { Steps, Panel, Placeholder, ButtonGroup, Button } from "rsuite";
 import { useConnect } from 'wagmi'
+import Ens from './Ens';
 import Metamask from './Metamask';
 
 
@@ -35,6 +36,7 @@ function Navbar() {
     <hr />
     <Panel header={`Step: ${step + 1}`}>
       {step===0 ? <><Metamask/></> : null}
+      {step===1 ? <><Ens/></> : null}
     </Panel>
     <hr />
     <ButtonGroup className="button-group">
