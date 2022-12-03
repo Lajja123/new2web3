@@ -4,6 +4,16 @@ import { Steps, Panel, Placeholder, ButtonGroup, Button } from "rsuite";
 import { useConnect } from 'wagmi'
 import Ens from './Ens';
 import Metamask from './Metamask';
+import Polygon from './polygon';
+import Erc20 from './Erc20';
+import Worldcoin from './Worldcoin';
+import PushProtocol from './PushProtocol';
+import Erc721 from './Erc721';
+import NftPort from './NftPort';
+import Covalent from './Covalent';
+import IpfsValist from './IpfsValist';
+import LandingPage from './LandingPage';
+
 
 
 function Navbar() {
@@ -35,8 +45,17 @@ function Navbar() {
     </Steps>
     <hr />
     <Panel header={`Step: ${step + 1}`}>
-      {step===0 ? <><Metamask/></> : null}
-      {step===1 ? <><Ens/></> : null}
+    {step===0 ? <><LandingPage/></> : null}
+      {step===1? <><Metamask/></> : null}
+      {step===2 ? <><Polygon/></> : null}
+      {step===3 ? <><Erc20/></> : null}
+      {step===4 ? <><Ens/></> : null}
+      {step===5 ? <><Worldcoin/></> : null}
+      {step===6 ? <><PushProtocol/></> : null}
+      {step===7 ? <><Erc721/></> : null}
+      {step===8 ? <><NftPort/></> : null}
+      {step===9 ? <><Covalent/></> : null}
+      {step===10? <><IpfsValist/></> : null}
     </Panel>
     <hr />
     <ButtonGroup className="button-group">

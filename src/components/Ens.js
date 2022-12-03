@@ -41,6 +41,9 @@ function Ens() {
 <p className="metamask-content" >Try it for yourself!
 
 </p>
+<div className="connect-wallet">
+    <button className='connect-btn'>Set up ENS</button>
+</div>
     </div>
   )
 }

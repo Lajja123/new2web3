@@ -50,3 +50,17 @@ padding: 10px 40px ;
     margin-bottom: 20px;
     margin-left: 20px;
 }
+.nftport-box{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+.nft-img{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 20%;
+
+}

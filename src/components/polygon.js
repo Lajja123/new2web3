@@ -3,8 +3,9 @@ import "../components/ens.css";
 import ens1 from "../assests/images/ENS1.png";
 import ens2 from "../assests/images/ENS2.png";
 
-function Polygon() {
+function polygon() {
   return (
+       <div className="metamask-main-div">
     <div className="metamask-section1">
        <h1 className="metamask-title">What is Blockchain Technology?
 </h1>
@@ -24,10 +25,10 @@ function Polygon() {
 <li>Fraud and data tampering is prevented in a blockchain system since data can't be changed without the permission of the nodes of the parties.
 
 </li>
-        </ul>
+        </ul> </div>
         <h2 className="metamask-small-title">Ethereum:
 </h2>
-       </div>
+      
 <p className="metamask-content" >Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts. Smart contracts allow participants to transact with each other without a trusted central authority. 
 </p>
 <p className="metamask-content" >Transaction records are immutable, verifiable, and securely distributed across the network, giving participants full ownership and visibility into transaction data. Transactions are sent from and received by user-created Ethereum accounts. 
@@ -65,7 +66,8 @@ function Polygon() {
 
 </p>
    </div>
-  )
+   
+ </div> )
 }
 
-export default Ens
+export default polygon
