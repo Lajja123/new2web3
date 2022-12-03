@@ -12,13 +12,14 @@ import Erc721 from './Erc721';
 import NftPort from './NftPort';
 import Covalent from './Covalent';
 import IpfsValist from './IpfsValist';
-import LandingPage from './LandingPage';
+import Resources from './Resources';
+// import LandingPage from './LandingPage';
 
 
 
 function Navbar() {
   
-    const [step, setStep] = React.useState(0);
+    const [step, setStep] = React.useState(1);
     const onChange = (nextStep) => {
       setStep(nextStep < 0 ? 0 : nextStep > 11 ? 11 : nextStep);
     };
@@ -44,8 +45,8 @@ function Navbar() {
       <Steps.Item description="" />
     </Steps>
     <hr />
-    <Panel header={`Step: ${step + 1}`}>
-    {step===0 ? <><LandingPage/></> : null}
+    <Panel  header={`Step: ${step + 1}`}>
+    {/* {step===0 ? <><LandingPage/></> : null} */}
       {step===1? <><Metamask/></> : null}
       {step===2 ? <><Polygon/></> : null}
       {step===3 ? <><Erc20/></> : null}
@@ -56,13 +57,14 @@ function Navbar() {
       {step===8 ? <><NftPort/></> : null}
       {step===9 ? <><Covalent/></> : null}
       {step===10? <><IpfsValist/></> : null}
+      {step===11? <><Resources/></> : null}
     </Panel>
     <hr />
     <ButtonGroup className="button-group">
-      <Button onClick={onPrevious} disabled={step === 0}>
+      <Button onClick={onPrevious} disabled={step === 0} className="step-btn">
         Previous
       </Button>
-      <Button onClick={onNext} disabled={step === 11}>
+      <Button onClick={onNext} disabled={step === 11} className="step-btn">
         Next
       </Button>
     </ButtonGroup>

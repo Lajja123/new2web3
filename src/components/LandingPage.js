@@ -4,6 +4,7 @@ import landingImg from "../assests/images/landingImg.jpg"
 import icon1 from "../assests/images/Picture1.png"
 import icon2 from "../assests/images/Picture2.png"
 import icon3 from "../assests/images/Picture3.png"
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -78,9 +79,10 @@ learning
   </div>
   </section>
   <section id="section6-landingpage">
-    <h1 className="section6-content">Here is your <span className="text-color">2-step guide</span> to starting the 
+    <h1 className="section6-content">Here is your <span className="text-color">12-step guide</span> to starting the 
 Web3 journey!</h1>
-<button className="section6-button">let's go!</button>
+
+<button className="section6-button"><Link to="/metamask">Let's go!</Link></button>
   </section>
   </>
   )

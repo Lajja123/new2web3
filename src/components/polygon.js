@@ -11,18 +11,18 @@ function polygon() {
 </h1>
        <div>
         <ul>
-            <li>A Blockchain is a decentralized database that is shared among computer network nodes.
+            <li className="metamask-content">A Blockchain is a decentralized database that is shared among computer network nodes.
 </li>
-<li>Transactional data from numerous sources may be readily collected, integrated, and shared using blockchain cloud services.
+<li className="metamask-content">Transactional data from numerous sources may be readily collected, integrated, and shared using blockchain cloud services.
 
 </li>
-<li>Data is divided into common blocks linked together using cryptographic hashes as unique IDs. 
+<li className="metamask-content">Data is divided into common blocks linked together using cryptographic hashes as unique IDs. 
 
 </li>
-<li>Data integrity is ensured via Blockchain, which uses a single source of truth to eliminate data duplication and increase security. 
+<li className="metamask-content">Data integrity is ensured via Blockchain, which uses a single source of truth to eliminate data duplication and increase security. 
 
 </li>
-<li>Fraud and data tampering is prevented in a blockchain system since data can't be changed without the permission of the nodes of the parties.
+<li className="metamask-content">Fraud and data tampering is prevented in a blockchain system since data can't be changed without the permission of the nodes of the parties.
 
 </li>
         </ul> </div>

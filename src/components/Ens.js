@@ -9,7 +9,7 @@ function Ens() {
        <h1 className="metamask-title">ENS</h1>
        <h2 className="metamask-small-title">To make this more interesting for you, let’s add a human-friendly domain name to the wallet address.
 </h2>
-<p className="metamask-content" >Start by going to the ENS app and connecting your wallet.
+<p className="metamask-content" >Start by going to the <a href="https://worldcoin.org/download">ENS app</a> and connecting your wallet.
 </p>
 <img src={ens1} className="metamask-img"/>
 <p className="metamask-content" >Next, you can search the name that you want. If it is available, click on the name again to go the Register screen. This gives you the pricing for the number of years selected.

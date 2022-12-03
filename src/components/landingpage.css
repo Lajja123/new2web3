@@ -1,9 +1,10 @@
 .main-landing-section{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
+    margin: 50px;
 }
 .navbar-section{
-    width: auto;
+    /* width: 100%; */
     height: 10vh;
     display: flex;
     margin: 50px;
@@ -25,12 +26,13 @@ color: #BE252E;
 }
 .landing-image{
     width: 50rem;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 .section1-inner-div{
     display: flex;
     height: 100vh;
     margin: 50px; 
+    
     margin-top: 5px;
     font-family: "Alata-Regular";
     justify-content: space-between;
@@ -52,7 +54,7 @@ color: #BE252E;
 }
 #section2-landingpage{
 /*  */
-    margin: 20px;
+    margin: 50px;
     text-align: center;
    
 }
@@ -64,11 +66,13 @@ color: #BE252E;
 #section3-landingpage{
     /*  */
         margin: 50px; 
+        margin-top: 10%;
     }
     .section3-main-content{
         font-family:"Alata-Regular";
     font-size: 48px;
     margin-top: 10%;
+    margin: 50px;
     }
     .section4-landing-page{
         display: flex;
@@ -132,6 +136,7 @@ text-align: center;
         background-color: #53A3C7;
         color: white;
         font-size: 24px;
+        text-decoration: none;
         margin-left: 45%;
         border-radius: 20px;
         margin-bottom: 50px;

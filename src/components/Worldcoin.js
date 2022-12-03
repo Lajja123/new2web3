@@ -17,7 +17,7 @@ Doing this human verification is quite simple!
 
 </p>
 
-<p className="metamask-content" >You can easily and anonymously verify they are a unique human through the Worldcoin app.
+<p className="metamask-content" >You can easily and anonymously verify they are a unique human through the <a href="https://worldcoin.org/download">Worldcoin app.</a>
 
 
 </p>

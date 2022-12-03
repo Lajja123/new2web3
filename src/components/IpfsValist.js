@@ -39,16 +39,16 @@ function IpfsValist() {
 </h2>
 <div>
         <ul>
-            <li>Simplify Developer Workflows For Every Platform
+            <li className="metamask-content"> Simplify Developer Workflows For Every Platform
 
 </li>
-<li>Massive time & cost savings
+<li className="metamask-content">Massive time & cost savings
 
 </li>
-<li>Security Out Of The Box
+<li className="metamask-content">Security Out Of The Box
 
 </li>
-<li>Resilient infrastructure
+<li className="metamask-content">Resilient infrastructure
 
 
 </li>
@@ -58,18 +58,18 @@ function IpfsValist() {
 
 </h2><div>
         <ul>
-            <li>The Power Of Web3, With The Ease Of Web2
+            <li className="metamask-content">The Power Of Web3, With The Ease Of Web2
 </li>
-<li>Software Licensing toolkit
+<li className="metamask-content">Software Licensing toolkit
 
 </li>
-<li>Secure On-Chain Registry
+<li className="metamask-content">Secure On-Chain Registry
 
 </li>
-<li>Distributed storage + CDNs
+<li className="metamask-content">Distributed storage + CDNs
 
 </li>
-<li>Gasless Meta-Transactions
+<li className="metamask-content">Gasless Meta-Transactions
 
 
 </li>

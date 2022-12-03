@@ -83,8 +83,8 @@ function Erc20() {
 
 
 </p>
-<img src={erc20} className="metamask-img"/>
-<p className="metamask-content" >Step 2. Go to this link https://goerli-faucet.mudit.blog/ & paste the address. 
+<img src={erc20} className="metamask-img metamask-dummy-ss"/>
+<p className="metamask-content" >Step 2. Go to this link  <a href="https://goerli-faucet.mudit.blog/">https://goerli-faucet.mudit.blog/ </a> & paste the address. 
 
 
 

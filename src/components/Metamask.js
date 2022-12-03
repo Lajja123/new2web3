@@ -52,7 +52,7 @@ function Metamask() {
 
 <div>
 <h2 className="metamask-small-title" >Installing The Extension</h2>
-<p className="metamask-content">First, head over to MetaMask. Once there, you’ll see a blue button that allows you to download the extension for whatever browser you use. On Chrome, you’ll see this.
+<p className="metamask-content">First, head over to <span className="metamask-span">MetaMask.</span> Once there, you’ll see a blue button that allows you to download the extension for whatever browser you use. On Chrome, you’ll see this.
 </p>
 <img src={metamask1} className="metamask-img"/>
 <p className="metamask-content">Go ahead and hit that button, and it’ll take you to the Chrome Web Store. Once you are ready to go, click the Add To Chrome button, which will then install your MetaMask wallet for free.
@@ -74,7 +74,7 @@ function Metamask() {
 <img src={metamask4} className="metamask-img"/>
 <p className="metamask-content">You can think of these words as your master key to all your digital assets. If you have lost or forgotten your password, you can use this set of 12 words to restore your wallet on any device. However, if anyone were to gain access to these 12 words, they could do the same. Anyone with these passphrases can restore your wallet on their digital device and gain access to all your assets, including your cryptocurrency and NFTs. 
 </p>
-<p  className="metamask-content">Bottom Line: Write these 12 words down and keep them somewhere safe offline. Do not store these words on your computer. Remember – no one will ever need to know your 12 words other than you. If you ever do get asked for these phrases, it’s likely a scam.
+<p  className="metamask-content"><span className="bottom-line">Bottom Line:</span> Write these 12 words down and keep them somewhere safe offline. Do not store these words on your computer. Remember – no one will ever need to know your 12 words other than you. If you ever do get asked for these phrases, it’s likely a scam.
 </p>
 <p className="metamask-content" >That’s it! Your crypto wallet is now set up! You can access any dApp or transact tokens using this.
 </p>
